@@ -8,22 +8,16 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url(../media/backgroud.png);
-    background-size: 200vh;
+    background: url('../media/background.png') no-repeat center center fixed;
+    background-size: cover;
 }
 .username {
     letter-spacing: 1px;
     color:ghostwhite;
+    text-shadow: 3px 3px 3px #000;
     font-family: 'Roboto', sans-serif;
     font-size: 400%;
     margin-bottom: 700px;
-    text-align: center
-}
-.probel {
-    letter-spacing: 1px;
-    color:ghostwhite;
-    font-family: 'Roboto', sans-serif;
-    font-size: 400%;
     text-align: center
 }
 .links {
@@ -42,10 +36,12 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 300%;
     color: white;
+    text-shadow: 3px 3px 3px #000;
 }
 .probel {
     letter-spacing: 1px;
     color:ghostwhite;
+    text-shadow: 3px 3px 3px #000;
     font-family: 'Roboto', sans-serif;
     font-size: 400%;
     text-align: center
